@@ -7,12 +7,10 @@ function Next() {
     	if(arr.indexOf(randomnumber) > -1) continue;
     	arr[arr.length] = randomnumber;
         document.getElementById(arr).style.backgroundColor = "red";
+		document.getElementById("insert").value = randomnumber;
 }
 }
 
-function Reset() {
-	document.getElementById("reset").window.location.reload();
-}
 
 
 
